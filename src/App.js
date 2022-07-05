@@ -60,8 +60,6 @@ function App() {
       />
 
       <Footer />
-
-      <Card />
     </div>
   );
 }
