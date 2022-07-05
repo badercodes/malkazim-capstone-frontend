@@ -102,26 +102,26 @@ function NewProducts(props) {
                 {/* <!-- tab --!>*/}
                 {/* <div id="tab1" className="tab-pane active"> */}
                 {/* <div className="products-slick" data-nav="#slick-nav-1"> */}
-                {/* <!-- product 1 --!>*/}
+                {/* <!-- product 2 --!>*/}
                 <div className="product">
                   <div className="product-img">
-                    <img src={`${props.ProductImg1}`} alt="" />
+                    <img src={`${props.ProductImg2}`} alt="" />
                     <div className="product-label">
                       {props.ProductSale1 && (
-                        <span className="sale">{props.ProductSale1}</span>
+                        <span className="sale">{props.ProductSale2}</span>
                       )}
                       <span className="new">NEW</span>
                     </div>
                   </div>
                   <div className="product-body">
-                    <p className="product-category">{props.ProductCategory1}</p>
+                    <p className="product-category">{props.ProductCategory2}</p>
                     <h3 className="product-name">
-                      <a href="#">{props.ProductName1}</a>
+                      <a href="#">{props.ProductName2}</a>
                     </h3>
                     <h4 className="product-price">
-                      {props.ProductPrice1}{" "}
+                      {props.ProductPrice2}{" "}
                       <del className="product-old-price">
-                        {props.ProductOldPrice1}
+                        {props.ProductOldPrice2}
                       </del>
                     </h4>
                     <div className="product-rating">
@@ -159,26 +159,26 @@ function NewProducts(props) {
                 {/* <!-- tab --!>*/}
                 {/* <div id="tab1" className="tab-pane active"> */}
                 {/* <div className="products-slick" data-nav="#slick-nav-1"> */}
-                {/* <!-- product 1 --!>*/}
+                {/* <!-- product 3 --!>*/}
                 <div className="product">
                   <div className="product-img">
-                    <img src={`${props.ProductImg1}`} alt="" />
+                    <img src={`${props.ProductImg3}`} alt="" />
                     <div className="product-label">
                       {props.ProductSale1 && (
-                        <span className="sale">{props.ProductSale1}</span>
+                        <span className="sale">{props.ProductSale3}</span>
                       )}
                       <span className="new">NEW</span>
                     </div>
                   </div>
                   <div className="product-body">
-                    <p className="product-category">{props.ProductCategory1}</p>
+                    <p className="product-category">{props.ProductCategory3}</p>
                     <h3 className="product-name">
-                      <a href="#">{props.ProductName1}</a>
+                      <a href="#">{props.ProductName3}</a>
                     </h3>
                     <h4 className="product-price">
-                      {props.ProductPrice1}{" "}
+                      {props.ProductPrice3}{" "}
                       <del className="product-old-price">
-                        {props.ProductOldPrice1}
+                        {props.ProductOldPrice3}
                       </del>
                     </h4>
                     <div className="product-rating">
